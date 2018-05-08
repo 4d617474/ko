@@ -1,2 +1,2 @@
-# ko
+# Ko
 Minimalist startpage
