@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title> </title>
+		<link rel="shortcut icon" href="mico.png">
+		<meta name="theme-color" content="blue">
+	</head>
+
+	<body>
+    <div id="background"></div>
+    <div id="curtains"></div>
+    <div id="opq"></div>
+
+		<div id="bBack" onclick="selectSide(3)"></div>
+		<div class="bButtonContainer" id="bBCLeft">
+			<div class="cArea" onclick="selectSide(1)"></div>
+			<div class="bButton" id="bLeft">
+				<div id="bBlur1"></div>
+			</div>
+		</div>
+		<div class="bButtonContainer" id="bBCRight">
+			<div class="cArea" onclick="selectSide(2)"></div>
+			<div class="bButton" id="bRight">
+				<div id="bBlur2"></div>
+			</div>
+		</div>
+    <div id="mLeft" class="side">
+			<div id="linkContainer">
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+				<a class="links"></a>
+				<a class="links"></a></br>
+			</div>
+    </div>
+		<div id="mRight" class="side">
+			<div id="searchBox">
+				<form method="get" action="http://www.google.com/search">
+					<input id="search" name="q" placeholder="Search something here..."  type="text" autocomplete="off" autofocus>
+				</form>
+			</div>
+		</div>
+  </body>
+  <script src="config.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+  <script>
+		toggleBB();
+		insertLinks();
+		randomBg();
+  </script>
+</html>
